@@ -62,3 +62,15 @@ django_heroku.settings(locals())
 
 ## Gerar requirements
 pip freeze > requirements.txt
+
+## Criar projeto heroku
+heroku create luciano-neo-django-restapi
+
+## Enviar commit heroku
+git push heroku master
+
+## Criar banco de dados
+heroku addons:create heroku-postgresql:hobby-dev
+
+## Rodar migrate
+heroku run python manage.py migrate
