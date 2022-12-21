@@ -4,6 +4,12 @@
 python3 -m venv ./venv
 Fechar o terminal e iniciar novamente
 
+## No linux
+ir para o diretorio e digitar
+```
+source ./activate
+```
+
 ## Dependencias
 pip install django djangorestframework
 pip install djangorestframework
